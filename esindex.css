@@ -1,0 +1,1178 @@
+#Accesorios,
+#carrito {
+  margin: 0;
+  padding: 0;
+  background: url(https://github.com/Nahir13/Ecommerce/blob/main/img/FLogin.jpg?raw=true);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.productos2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+  .footoo{
+      background-image: url(https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg);
+      border: 1px solid #acdddd;
+      width: 310px;
+      height: 450px;
+      margin: 5px;margin-top: 10px;
+      padding: auto;
+      background-repeat: no-repeat;
+      background-color: white;
+      background-position: center;
+      background-size: 150px;
+      border-radius: 8px;
+  }
+  .footoo1{
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.cd8Mm_8H2P-4dxO8RdHILQHaHa&pid=Api&P=0&h=180);
+      background-position: center;
+      background-color: white;
+      background-size: 150px;
+      width: 310px;
+      height: 450px;
+      border: 1px solid #acdddd;
+      margin: 10px;
+      padding: auto;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+  }
+  .footoo2{
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.iNtX4zRV8PHqA4HmXMiqcAHaGY&pid=Api&P=0&h=180);
+      background-position: center;
+      width: 310px;
+      height: 450px;
+      border: 1px solid #acdddd;
+      border-radius: 8px;
+      margin: 10px;
+      padding: auto;
+      background-size: 150px;
+      background-repeat: no-repeat;
+      background-color: white;
+  }
+  .footoo3{
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.UjudSqDldQRGEz1ZX27lVQHaDy&pid=Api&P=0&h=180);
+      background-position: center;
+      width: 310px;
+      height: 450px;
+      border: 1px solid #acdddd;
+      margin: 10px;
+      padding: auto;
+      background-size: 200px;
+      background-repeat: no-repeat;
+      background-color: white;
+      border-radius: 8px;
+  }
+.fotoo {
+  background-image: url(https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg);
+  border: 1px solid #acdddd;
+  width: 310px;
+  height: 450px;
+  margin: 5px;
+  margin-top: 10px;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  background-size: 150px;
+  border-radius: 8px;
+}
+.fotoo1 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.cd8Mm_8H2P-4dxO8RdHILQHaHa&pid=Api&P=0&h=180);
+  background-position: center;
+  background-color: white;
+  background-size: 150px;
+  width: 310px;
+  height: 450px;
+  border: 1px solid #acdddd;
+  margin: 10px;
+  padding: auto;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.fotoo2 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.iNtX4zRV8PHqA4HmXMiqcAHaGY&pid=Api&P=0&h=180);
+  background-position: center;
+  width: 310px;
+  height: 450px;
+  border: 1px solid #acdddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: auto;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.fotoo3 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.UjudSqDldQRGEz1ZX27lVQHaDy&pid=Api&P=0&h=180);
+  background-position: center;
+  width: 310px;
+  height: 450px;
+  border: 1px solid #acdddd;
+  margin: 10px;
+  padding: auto;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 8px;
+}
+.displaygrid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  /* gap: 5px; */
+  grid-template-rows: repeat(6, 25%);
+  justify-content: start;
+  div {
+    width: 100%;
+    /* overflow: hidden; */
+    filter: brightness(60%);
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+    .h2e {
+      position: absolute;
+      top: 440px;
+      font-size: 60px;
+      margin-left: 30px;
+    }
+    .h2b {
+      position: absolute;
+      top: 280px;
+      font-size: 50px;
+      margin-left: 25px;
+    }
+    h2:hover {
+      -webkit-box-shadow: 22px 32px 37px -27px rgba(0, 0, 0, 0.52);
+      -moz-box-shadow: 22px 32px 37px -27px rgba(0, 0, 0, 0.52);
+      box-shadow: 22px 32px 37px -27px rgba(0, 0, 0, 0.52);
+      transform: scale(1.15);
+    }
+  }
+
+  .item-1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+  }
+  .item-2 {
+    grid-row: 1 / span 2;
+  }
+  .item-3 {
+    grid-row: 3/ 5;
+  }
+  .item-4 {
+    grid-column: 1 / span 3;
+  }
+}
+
+.grid-card {
+  border: #b2c8ba solid 1px;
+}
+.nav-zamazor {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  background-attachment: fixed;
+  margin: 1px;
+}
+.nav-button {
+  justify-content: space-between;
+  background-color: black;
+  height: 60px;
+  width: 100px;
+  border-style: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+#logo {
+  background-image: url(img/Logo.jpg);
+  background-size: cover;
+  height: 60px;
+  width: 180px;
+}
+#but {
+  background-color: black;
+  height: 25px;
+  width: 96px;
+  margin: 3px;
+  border-style: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+.nav-button:hover {
+  background-color: rgb(70, 69, 69);
+  color: rgb(255, 255, 255);
+}
+#but:hover {
+  background-color: rgb(70, 69, 69);
+  color: rgb(255, 255, 255);
+}
+@media (width <= 800px) {
+  #logo {
+    background-image: url(img/Logo\ chiquito.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+  }
+}
+#login {
+  margin: 0;
+  padding: 0;
+  background: url(img/FLogin.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 5%;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h6 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box .shop {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.login-box .shop:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+  color: #fff;
+}
+#aboutUs {
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/FLogin.jpg?raw=true);
+  background-repeat: no repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0%;
+}
+P,
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.frontview {
+  width: 98%;
+  background-color: #ffffff;
+  z-index: 100%;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.title {
+  font-size: 50px;
+  color: #313131;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.text {
+  width: 98%;
+  background-color: #ffffff;
+  z-index: 100%;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+.quienesomos1 {
+  font-size: 40px;
+  color: #000;
+}
+.quienesomos {
+  font-size: 20px;
+  color: #000;
+}
+.unidos {
+  width: 100%;
+  height: 20%;
+  background-repeat: no-repeat;
+}
+.bannerunidos1 {
+  font-size: 45px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 270px;
+  left: 7%;
+}
+.bannerunidos {
+  font-size: 40px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 760px;
+  left: 7%;
+}
+.banner {
+  font-size: 35px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 400px;
+  left: 7%;
+}
+@media (width <= 1199px) {
+  .banner {
+    display: flex;
+    font-size: 20px;
+    top: 320px;
+  }
+  .bannerunidos {
+    display: flex;
+    font-size: 22px;
+    top: 520px;
+  }
+  .bannerunidos1 {
+    display: flex;
+    font-size: 22px;
+    top: none;
+  }
+}
+.contenedor {
+  text-align: center;
+  background-color: #d6dac8;
+  border: 2px solid #acdddd;
+  box-shadow: #bbbbbb 0px 0px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  padding: auto;
+  justify-content: space-evenly;
+}
+hr {
+  margin: 10px;
+  box-shadow: #bbbbbb 0px 0px 10px;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #496989;
+  font-size: 30px;
+  text-align: center;
+}
+h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #496989;
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+select {
+  color: black;
+  background-color: transparent;
+  border-radius: 5px;
+  width: auto;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: italical;
+  margin: 10px 5px;
+  padding: 2px;
+  text-align: center;
+}
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px, auto;
+  gap: 10px 20px;
+  text-align: center;
+}
+.foto {
+  background-image: url(https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+.foto1 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.cd8Mm_8H2P-4dxO8RdHILQHaHa&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+.foto2 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.iNtX4zRV8PHqA4HmXMiqcAHaGY&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+.foto3 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.UjudSqDldQRGEz1ZX27lVQHaDy&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+.foto4 {
+  background-image: url(https://www.volantessimracing.top/wp-content/uploads/2021/03/palanca-de-cambios-thrustmaster-TH8A-.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+  background-size: 100px;
+}
+.foto5 {
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.G69ikW2kQk_oboHp9aGiGAHaEE&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+  background-size: 200px;
+}
+.foto6 {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.0LK7qXy9ZeXf6mynUO_rKAHaFj&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+  background-size: 200px;
+}
+.foto7 {
+  background-image: url(https://images.implementos.cl/img/1000/LIMCAR0038-1.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid #acdddd;
+  background-color: white;
+  background-position: center;
+  border-radius: 8px;
+  margin: 10px;
+  background-size: 200px;
+}
+.foto:nth-child(1) {
+  grid-column: 1 / 3;
+}
+.foto1:nth-child(2) {
+  grid-column: 3 / 4;
+}
+.foto2:nth-child(3) {
+  grid-column: 1 / 2;
+}
+.foto3:nth-child(4) {
+  grid-column: 2 / 4;
+}
+.foto4:nth-child(5) {
+  grid-column: 1 / 3;
+}
+.foto5:nth-child(6) {
+  grid-column: 3 / 4;
+}
+.foto6:nth-child(7) {
+  grid-column: 1 / 2;
+}
+.foto7:nth-child(8) {
+  grid-column: 2 / 4;
+}
+h4 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: #7ab2b2;
+}
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 250px;
+}
+u {
+  color: #7ab2b2;
+}
+.PButton {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #2c0b8b;
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.PButton:hover {
+  background-color: #661c3e;
+}
+
+@media (600px<= width <=1199) {
+  .contenedor {
+    width: auto;
+    height: auto;
+  }
+}
+@media (width <= 600px) {
+  .contenedor {
+    width: auto;
+    height: auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, "Segoe UI", Tahoma, Verdana;
+}
+.cuerpo {
+  background-image: linear-gradient(to right, #000, #333333, #ffffff);
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.conteiner {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+}
+.card {
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+  transition: 300ms;
+}
+
+.autos,
+.autos_2,
+.autos_3,
+.autos_4,
+.autos_5,
+.autos_6,
+.autos_7,
+.autos_8,
+.autos_9,
+.autos_10 {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background-color: rgba(14, 105, 179, 0.89);
+  transform: 300ms;
+  position: absolute;
+}
+
+.imagen_del_auto {
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/honda%20cr%20v%201.jpg?raw=true);
+  height: 140px;
+  width: 300px;
+  background-size: cover;
+  margin-bottom: 200px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_2 {
+  height: 120px;
+  width: 200px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 180px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_3 {
+  height: 150px;
+  width: 240px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/mazda%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 200px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_4 {
+  height: 180px;
+  width: 300px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 210px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_5 {
+  height: 140px;
+  width: 300px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 190px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_6 {
+  height: 140px;
+  width: 260px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/rta%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 190px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_7 {
+  height: 140px;
+  width: 260px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 190px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_8 {
+  height: 140px;
+  width: 260px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 195px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_9 {
+  height: 140px;
+  width: 260px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 195px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.imagen_del_auto_10 {
+  height: 140px;
+  width: 260px;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
+  background-size: cover;
+  margin-bottom: 195px;
+  transition: 300ms;
+  filter: drop-shadow(5px -4px 10px #000);
+  border-radius: 10%;
+}
+.detalles,
+.detalles_2,
+.detalles_3,
+.detalles_4,
+.detalles_5,
+.detalles_6,
+.detalles_7,
+.detalles_8,
+.detalles_9,
+.detalles_10 {
+  height: 260px;
+  width: 300px;
+  background-color: #000;
+  position: absolute;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  margin-top: 150px;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  transition: 300ms;
+}
+/*hover*/
+.card:hover .autos,
+.autos_2,
+.autos_3,
+.autos_4,
+.autos_5,
+.autos_6,
+.autos_7,
+.autos_8,
+.autos_9,
+.autos_10 {
+  scale: (1.5);
+}
+.card:hover .imagen_del_auto {
+  transform: translateY(-50px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/crv%202.jpg?raw=true);
+  height: 210px;
+  width: 190px;
+}
+.card:hover .imagen_del_auto_2 {
+  transform: translateY(-50px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%202.jpg?raw=true);
+  height: 170px;
+  width: 290px;
+  margin-bottom: 130px;
+}
+.card:hover .imagen_del_auto_3 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/marav%202.jpg?raw=true);
+  height: 220px;
+  width: 190px;
+  margin-bottom: 220px;
+}
+.card:hover .imagen_del_auto_4 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%202.jpg?raw=true);
+  height: 220px;
+  width: 190px;
+  margin-bottom: 220px;
+}
+.card:hover .imagen_del_auto_5 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%202.jpg?raw=true);
+  height: 220px;
+  width: 350px;
+  margin-bottom: 130px;
+}
+.card:hover .imagen_del_auto_6 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/toyota%202.jpg?raw=true);
+  height: 150px;
+  width: 300px;
+  margin-bottom: 140px;
+}
+.card:hover .imagen_del_auto_7 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%202.jpg?raw=true);
+  height: 145px;
+  width: 340px;
+  margin-bottom: 110px;
+}
+.card:hover .imagen_del_auto_8 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%202.jpg?raw=true);
+  height: 160px;
+  width: 340px;
+  margin-bottom: 120px;
+}
+.card:hover .imagen_del_auto_9 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
+  height: 160px;
+  width: 340px;
+  margin-bottom: 120px;
+}
+.card:hover .imagen_del_auto_10 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%202.jpg?raw=true);
+  height: 155px;
+  width: 340px;
+  margin-bottom: 130px;
+}
+.card:hover .autos {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_2 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_3 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_4 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_5 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_6 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_7 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_8 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_9 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+.card:hover .autos_10 {
+  background-image: radial-gradient(white, rgb(50, 30, 20));
+}
+h2 {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: #ffffff;
+  margin: auto;
+  width: 90%;
+  font-size: 16px;
+}
+.boton {
+  width: 10px 20px;
+  height: 30px;
+}
+.boton {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  cursor: pointer;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10px 19px 10px 17px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background: #661c3e;
+  background-image: -webkit-linear-gradient(top, #661c3e, #8f2974);
+  background-image: -moz-linear-gradient(top, #661c3e, #8f2974);
+  background-image: -ms-linear-gradient(top, #661c3e, #8f2974);
+  background-image: -o-linear-gradient(top, #661c3e, #8f2974);
+  background-image: linear-gradient(to bottom, #661c3e, #8f2974);
+  text-decoration: none;
+}
+.text-carrito {
+  width: 80%;
+  background-color: #ffffff;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 600px;
+  margin: auto;
+  margin-top: 3%;
+}
+.articulo-carrito {
+  background-color: #ffffff;
+  margin: 10px;
+  border: 2px solid #a3a1a1;
+  border-radius: 5px;
+  width: 95%;
+  height: 60px;
+}
+.carrito-sect-articulo {
+  border: 2px solid #a3a1a1;
+  border-radius: 5px;
+  width: 95%;
+  display: grid;
+  align-content: baseline;
+  height: 300px;
+  margin: 10px;
+}
+.boton-comprar {
+  width: 95%;
+  height: 45px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3d348b;
+  box-shadow: 0 5px #2c0b8e;
+  margin: 10px;
+}
+.boton-comprar:hover {
+  box-shadow: 0 3px #2c0b8e;
+  top: 1px;
+}
+.boton-comprar:active {
+  box-shadow: 0 0 #2c0b8e;
+  top: 5px;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.piedepágina{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col p{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col p::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #2c0b8b;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+    &:hover{
+  color: #ffffff;
+  padding-left: 8px;
+  }
+}
+.footer-col .redes-sociales a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+    &:hover{
+      color: #24262b;
+      background-color: #ffffff;
+    }
+}
+.footer-col .copyright a{
+  color: #ffffff;
+}
+
+@media(width <= 767px){
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+}
+.carrito-civic {
+  width:200px;
+  height: 120px;
+  background-image:url(img/civic\ 1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: civic;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes civic {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/civic\ 2.jpg);
+  }
+}
+.carrito-hilux {
+  width:200px;
+  height: 100px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: hilux;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes hilux {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/hilux\ 2.jpg);
+  }
+}
+.carrito-forester {
+  width:150px;
+  height: 130px;
+  background-image:url(img/subaro\ 1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: forester;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes forester {
+  from {
+    background-image:url(img/subaro\ 1.jpg);
+  }
+  to {
+      background-image: url(img/subaro\ 2.jpg);
+  }
+}
+.carrito-SW4{
+  width:200px;
+  height: 100px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: sw4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes sw4 {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/sw4\ 2.jpg);
+  }
+}

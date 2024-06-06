@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamazor</title>
+    <link rel="stylesheet" href="esindex.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+    .displaygrid{
+        margin-top: 5%;
+       display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /* gap: 5px; */
+    grid-template-rows: repeat(6, 25%);
+    justify-content: start;
+    div {
+        width: 100%;
+        /* overflow: hidden; */
+        filter: brightness(60%);
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+        .h2e{
+            position: absolute; top: 440px;
+            font-size: 60px;
+            margin-left: 30px;
+        }
+        .h2b{
+            position: absolute; top: 280px;
+            font-size: 50px;
+            margin-left: 25px;
+
+        }
+        h2:hover{
+            -webkit-box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+-moz-box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+transform: scale(1.15);
+        }
+    }
+
+    .item-1 {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 3;
+
+    }
+    .item-2 {
+        grid-row: 1/ span 2;
+    }
+    .item-3{
+        grid-row: 3/  5; 
+    }
+    .item-4{
+        grid-column: 1/ span 3;
+
+    }
+
+    }
+    /* .aimg1 {
+        width: 450px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .aimg2 {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    } */
+    .grid-card {
+    /* width: 300px;
+    height: 450px; */
+    border: #B2C8BA solid 1px;
+    /* background-color: #FFFFFF; */
+    }
+</style>
+</head>
+
+<body class="cuerpo">
+    <div class="nav-zamazor">
+        <div class="item">
+            <a class="logo" href="index.html">
+         <div id="logo"> </div>
+        </a>
+        </div>
+        <div>
+            <a href="Cards.html">
+                 <button class="nav-button">PRODUCTOS</button>
+            </a>
+        </div>
+        <div>
+            <a href="productosespecificos.html">
+                 <button class="nav-button">ACCESORIOS</button>
+            </a>
+        </div>
+        <div>
+            <a href="Carrito.html">
+                 <button class="nav-button">CARRITO</button>
+        </a>
+        </div>
+        <div class="nav-button" style="background-color:rgba(255, 255, 255, 0) ;">
+            <a href="index.html"><button id="but"><img src="img/user.png" style="height: 15px;">Registrar</button></a>
+            <a href="aboutUs.html"><button id="but"><img src="https://github.com/Nahir13/Ecommerce/blob/main/img/AboutUs.png?raw=true" style="height: 12px;">Nosotros</button>
+            </a>
+        </div>
+    </div>
+
+
+ <div>
+<div class="displaygrid">
+<div class="item-1"> <a href="Cards.html"> <img src="https://github.com/Nahir13/Ecommerce/blob/main/img/honda%20cr%20v%201.jpg?raw=true" alt="notfoundexe"> <h2 class="h2e"><u>Autos en venta</u></h2> </a></div>
+<div class="item-2"> <a href="productosespecificos.html"><img src="https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg" alt="nofoundexe"><h2 class="h2b" style="color: #ffffff;"><u>Repuestos</u></h2> </a></div>
+<div class="item-3"> <a href="aboutUs.html"><img  src="https://cdn-icons-png.flaticon.com/512/9126/9126245.png" alt="nofoundexe"></a></div> 
+<div class="item-4"><hr size="200%" ></div>
+</div>
+    <h2 class="autosventa">Autos en venta en Zamazor</h2>
+
+    <div class="conteiner">
+
+    <div class="card">
+        <div class="autos">
+            <div class="imagen_del_auto"></div>
+            <div class="detalles">
+                <h2>Honda CR-V</h2>
+                <P> La Honda CR-V es una opción popular para conductores que buscan una SUV versátil y confiable. Conocida por su interior espacioso, conducción confortable y eficiencia de combustible, la CR-V es una excelente opción para familias, viajeros y aventureros.</P>
+                <div class="boton"><h6>¡COMPRA YA!</h6></div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="autos_2">
+            <div class="imagen_del_auto_2"></div>
+            <div class="detalles_2">
+                <h2> honda-civic-2017</h2>
+                <P>El Honda Civic 2017 es un sedán compacto que ofrece una combinación de estilo, eficiencia y rendimiento. Con un diseño deportivo y moderno, un interior cómodo y tecnología de vanguardia, el Civic es una opción popular para conductores de todas las edades.
+                </P>
+                <div class="boton"><h6>¡COMPRA YA!</h6></div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="autos_3">
+            <div class="imagen_del_auto_3"></div>
+            <div class="detalles_3">
+                <h2>Mazda3</h2>
+                <P> El Mazda3 es un sedán compacto que destaca por su diseño elegante, manejo deportivo y tecnología de vanguardia. Con un interior refinado y un motor potente, el Mazda3 ofrece una experiencia de conducción excepcional.     </P>
+                <div class="boton"><h6>¡COMPRA YA!</h6></div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="autos_4">
+            <div class="imagen_del_auto_4"></div>
+            <div class="detalles_4">
+                <h2> Subaru Forester</h2>
+                <P>La Subaru Forester es una SUV compacta que combina versatilidad, seguridad y capacidad todoterreno. Con un diseño robusto, un interior espacioso y tecnología avanzada, la Forester es ideal para familias, viajeros y aventureros.
+                </P>
+                <div class="boton"><h6>¡COMPRA YA!</h6></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<a href="#" class="vermass" onclick="vermas('mas');" id="mas"><center>Ver más</center></a>
+<div id="desplegar" style="display:none;">
+<div class="conteiner">
+<div class="card">
+    <div class="autos_5">
+        <div class="imagen_del_auto_5"></div>
+        <div class="detalles_5">
+            <h2>Toyota Corolla</h2>
+            <P> El Toyota Corolla es un sedán compacto que ofrece confiabilidad, eficiencia de combustible y un valor excepcional. Con un diseño clásico, un interior espacioso y tecnología moderna, el Corolla es una opción popular para conductores de todas las edades.
+            </P>
+            <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="autos_6">
+        <div class="imagen_del_auto_6"></div>
+        <div class="detalles_6">
+            <h2>Toyota RAV4</h2>
+            <P> La Toyota RAV4 es una SUV compacta que combina versatilidad, eficiencia de combustible y capacidad todoterreno. Con un diseño moderno, un interior espacioso y tecnología avanzada, la RAV4 es ideal para familias, viajeros y aventureros urbanos.
+            </P>
+            <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="autos_7">
+        <div class="imagen_del_auto_7"></div>
+        <div class="detalles_7">
+            <h2>Etios Sedán 2024</h2>
+            <P> El Toyota Etios Sedán 2024 es un sedán compacto conocido por su confiabilidad, economía de combustible y precio accesible. Con un diseño simple pero elegante, un interior espacioso y un motor rendidor, el Etios Sedán es una opción ideal para conductores que buscan un auto práctico para el día a día.
+            </P>
+            <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="autos_8">
+        <div class="imagen_del_auto_8"></div>
+        <div class="detalles_8">
+            <h2>SW4 Diamond 2024</h2>
+            <P> La SW4 Diamond 2024 es una SUV robusta y versátil que combina elegancia, potencia y tecnología de última generación. Con un diseño imponente, un interior confortable y un equipamiento completo, la SW4 Diamond es ideal para aquellos que buscan un vehículo para disfrutar de la aventura sin renunciar al confort y la seguridad.
+            </P> <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="autos_9">
+        <div class="imagen_del_auto_9"></div>
+        <div class="detalles_9">
+            <h2>Yaris Hatchback</h2>
+            <P> El Yaris Hatchback es un auto compacto que destaca por su agilidad, eficiencia de combustible y diseño moderno. Con un tamaño ideal para la ciudad, un interior confortable y un manejo divertido, el Yaris Hatchback es la opción perfecta para conductores que buscan un auto práctico y divertido de conducir.
+            </P>
+            <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="autos_10">
+        <div class="imagen_del_auto_10"></div>
+        <div class="detalles_10">
+            <h2>Hilux SRVSRX 2024</h2>
+            <P> La Toyota Hilux SRV/SRX 2024 es una pick-up robusta y versátil que combina potencia, capacidad todoterreno y tecnología de última generación. Con un diseño imponente, un interior confortable y un equipamiento completo, la Hilux SRV/SRX es ideal para aquellos que buscan un vehículo para el trabajo, la aventura o el ocio.
+            </P>
+            <div class="boton"><h6>¡COMPRA YA!</h6></div>
+        </div>
+    </div>
+</div>
+</div>
+<a href="#" class="vermenoss" onclick="vermas('menos');" id="menos"><center>Ver menos</center></a>
+</div>
+<!-- productos específicos -->
+<br>
+<br>
+<h2 class="autosventa">Repuestos</h2>
+<div class="productos2">
+    <div class="footoo">
+        <h4>Focos de repuesto</h4>
+        <hr>
+        <h3><u>Precio</u>: $6.765</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo1">
+        <h4>Optica</h4>
+        <hr>
+        <h3><u>Precio</u>: $25.000</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo2">
+        <h4>Cubre Asiento</h4>
+        <hr>
+        <h3><u>Precio</u>: $58.275</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo3">
+        <h4>Apoya Cabeza</h4>
+        <hr>
+        <h3><u>Precio</u>: $23.749</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+</div>
+<a href="#" class="vermass" onclick="mas('vermas');" id="vermas"><center>Ver más</center></a>
+<div id="redesplegar" style="display:none;">
+<div class="productos2">
+    <div class="footoo">
+        <h4>Focos de repuesto</h4>
+        <hr>
+        <h3><u>Precio</u>: $6.765</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo1">
+        <h4>Optica</h4>
+        <hr>
+        <h3><u>Precio</u>: $25.000</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo2">
+        <h4>Cubre Asiento</h4>
+        <hr>
+        <h3><u>Precio</u>: $58.275</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+    <div class="footoo3">
+        <h4>Apoya Cabeza</h4>
+        <hr>
+        <h3><u>Precio</u>: $23.749</h3>
+        <div class="boton"><h6>¡COMPRA YA!</h6></div>
+    </div>
+</div>
+<a href="#" class="vermenoss" onclick="mas('vermenos');" id="vermenos"><center>Ver menos</center></a>
+</div>
+
+
+
+
+
+
+</div>
+<footer class="footer">
+    <div class="piedepágina">
+        <div class="row">
+            <div class="footer-col">
+                <p>Compañia</p>
+                <ul>
+                    <li><a href="aboutUs.html">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <p>Tienda</p>
+                <ul>
+                    <li><a href="Cards.html">Productos</a></li>
+                    <li><a href="productosespecificos.html">Accesorios</a></li>
+                    <li><a href="Carrito.html">Carrito</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <p>Redes Sociales</p>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="copyright" style="margin: 150px 0 0 150px;">
+                    <a href="#"><i class="fa-regular fa-copyright">Zamazor2024</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="myscript.js"></script>
+
+</body>
+</html>
